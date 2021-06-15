@@ -77,11 +77,17 @@ Usage
 
 1. Pre-definded regions (Gene/TE/UTR/CDS or other regions) 
 
-    BatMeth2 batDMR -g genome -L -o_dm dm.output.txt -1 [sample1.methC.txt replicates ..] -2 [sample2.methC.txt replicates ..]
+.. code:: bash
+
+    BatMeth2 batDMR -g genome -L -o_dm dm.output.txt -1 [sample1.methC.txt replicates ..] \
+    -2 [sample2.methC.txt replicates ..]
 
 2. Auto define DMR region according the dmc 
 
-    BatMeth2 batDMR -g genome -o_dm dm.output.txt -o_dmr dmr.output.txt -1 [sample1.methC.txt replicates ..] -2 [sample2.methC.txt replicates ..]
+.. code:: bash
+
+    BatMeth2 batDMR -g genome -o_dm dm.output.txt -o_dmr dmr.output.txt -1 [sample1.methC.txt replicates ..] \
+    -2 [sample2.methC.txt replicates ..]
 
 
 
@@ -89,9 +95,18 @@ Output file
 ^^^^^^^^^^^
 
 1. DMC
-    Chrom position starnd context pvalue adjust_pvalue combine_pvalue corrected_pvalue cover_sample1 meth_sample1 cover_sample2 cover_sample2 meth.diff 
+
+.. code:: bash
+
+    # format
+    Chrom position starnd context pvalue adjust_pvalue combine_pvalue corrected_pvalue \
+    cover_sample1 meth_sample1 cover_sample2 cover_sample2 meth.diff 
     
 2. DMR
+
+.. code:: bash
+
+    # format
     Chrom start end methlevelInSample1 methlevelInSample2 NdmcInRegion hypermdc,hypodmc
 
 
