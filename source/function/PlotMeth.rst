@@ -28,6 +28,10 @@ The *.TSSprofile.txt *.centerprofile.txt and *.AverMethylevel.txt are calulated 
         -s 1 1 -xl up2k TSS down2k --context C 
 
 .. image:: ../media/profile-tss.png
+   :height: 300 px
+   :width: 400 px
+   :alt: profile
+   :align: center
 
 .. code:: bash
 
@@ -52,6 +56,10 @@ The *.TSSprofile.txt *.centerprofile.txt and *.AverMethylevel.txt are calulated 
         -s 1 1 1 -xl up2k TSS TES down2k
 
 .. image:: ../media/profile-body.png
+   :height: 300 px
+   :width: 400 px
+   :alt: profile
+   :align: center
 
 
 bt2heatmap
@@ -63,6 +71,10 @@ bt2heatmap
     -o test0.pdf -z k43 -sl TSS -el TTS
 
 .. image:: ../media/plot-heatmap-0.png
+   :height: 380 px
+   :width: 200 px
+   :alt: heatmap0
+   :align: center
 
 .. code:: bash
 
@@ -70,6 +82,10 @@ bt2heatmap
         -l tss tts -o test.pdf --zMax 0.1 --colorMap vlag --centerlabel center -z bd
 
 .. image:: ../media/plot-heatmap-1.png
+   :height: 460 px
+   :width: 400 px
+   :alt: heatmap0
+   :align: center
 
 .. code:: bash
 
@@ -79,6 +95,10 @@ bt2heatmap
         --plotmatrix 2x2 --colorList white,red -z bd unbd
 
 .. image:: ../media/plot-heatmap-2.png
+   :height: 500 px
+   :width: 400 px
+   :alt: heatmap0
+   :align: center
 
 .. code:: bash
 
@@ -88,6 +108,10 @@ bt2heatmap
         --plotmatrix 2x2 -z bd unbd
 
 .. image:: ../media/plot-heatmap-3.png
+   :height: 500 px
+   :width: 400 px
+   :alt: heatmap0
+   :align: center
 
 .. code:: bash
 
@@ -99,12 +123,16 @@ bt2heatmap
         --centerlabel center -z cg chg chh --zMax 0.3 1 0.01
 
 .. image:: ../media/plot-heatmap-4.png
+   :height: 500 px
+   :width: 400 px
+   :alt: heatmap0
+   :align: center
 
 bt2chrprofile
 -------------
 
-bt2boxplot
-----------
+bt2basicplot
+------------
 
 .. tip:: DNA methylation level distribution on chromosome (bt2chrplot) and DNA methylation level distribution (bt2visul) are currently being tested, and we will update them as soon as possible.
          

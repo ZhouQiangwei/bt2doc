@@ -199,7 +199,7 @@ $ bt2profile.py -f H3K4me3.bdgene.TSSprofile.txt <span class="se">\</span>
     -s <span class="m">1</span> <span class="m">1</span> -xl up2k TSS down2k --context C
 </pre></div>
 </div>
-<img alt="../_images/profile-tss.png" src="../_images/profile-tss.png" />
+<a class="reference internal image-reference" href="../_images/profile-tss.png"><img alt="profile" class="align-center" src="../_images/profile-tss.png" style="width: 400px; height: 300px;" /></a>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ BatMeth2 methyGff -o active random <span class="se">\</span>
     -G genome.fa -m methratio.txt <span class="se">\</span>
     -b active.bed random.bed -B
@@ -219,7 +219,7 @@ $ bt2profile.py -f active.centerprofile.txt <span class="se">\</span>
     -s <span class="m">1</span> <span class="m">1</span> <span class="m">1</span> -xl up2k TSS TES down2k
 </pre></div>
 </div>
-<img alt="../_images/profile-body.png" src="../_images/profile-body.png" />
+<a class="reference internal image-reference" href="../_images/profile-body.png"><img alt="profile" class="align-center" src="../_images/profile-body.png" style="width: 400px; height: 300px;" /></a>
 </div>
 <div class="section" id="bt2heatmap">
 <h2><a class="toc-backref" href="#id8">bt2heatmap</a><a class="headerlink" href="#bt2heatmap" title="Permalink to this headline">¶</a></h2>
@@ -227,26 +227,26 @@ $ bt2profile.py -f active.centerprofile.txt <span class="se">\</span>
 -o test0.pdf -z k43 -sl TSS -el TTS
 </pre></div>
 </div>
-<img alt="../_images/plot-heatmap-0.png" src="../_images/plot-heatmap-0.png" />
+<a class="reference internal image-reference" href="../_images/plot-heatmap-0.png"><img alt="heatmap0" class="align-center" src="../_images/plot-heatmap-0.png" style="width: 200px; height: 380px;" /></a>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ python bt2heatmap.py -m H3K4me3.bdgene.TSS.cg.txt H3K4me3.bdgene.TTS.cg.txt <span class="se">\</span>
     -l tss tts -o test.pdf --zMax <span class="m">0</span>.1 --colorMap vlag --centerlabel center -z bd
 </pre></div>
 </div>
-<img alt="../_images/plot-heatmap-1.png" src="../_images/plot-heatmap-1.png" />
+<a class="reference internal image-reference" href="../_images/plot-heatmap-1.png"><img alt="heatmap0" class="align-center" src="../_images/plot-heatmap-1.png" style="width: 400px; height: 460px;" /></a>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ python bt2heatmap.py -m H3K4me3.bdgene.TSS.cg.txt H3K4me3.bdgene.TTS.cg.txt <span class="se">\</span>
     H3K4me3.unbdgene.TSS.cg.txt H3K4me3.unbdgene.TTS.cg.txt <span class="se">\</span>
     -l <span class="nb">test</span> end -o test2.pdf --zMax <span class="m">0</span>.05 --centerlabel center <span class="se">\</span>
     --plotmatrix 2x2 --colorList white,red -z bd unbd
 </pre></div>
 </div>
-<img alt="../_images/plot-heatmap-2.png" src="../_images/plot-heatmap-2.png" />
+<a class="reference internal image-reference" href="../_images/plot-heatmap-2.png"><img alt="heatmap0" class="align-center" src="../_images/plot-heatmap-2.png" style="width: 400px; height: 500px;" /></a>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ python bt2heatmap.py -f H3K4me3.bdgene.body.cg.txt H3K4me3.bdgene.body.cg.txt <span class="se">\</span>
     H3K4me3.unbdgene.body.cg.txt H3K4me3.unbdgene.body.cg.txt <span class="se">\</span>
     -l <span class="nb">test</span> end -o test3.pdf --zMax <span class="m">0</span>.5 --centerlabel center <span class="se">\</span>
     --plotmatrix 2x2 -z bd unbd
 </pre></div>
 </div>
-<img alt="../_images/plot-heatmap-3.png" src="../_images/plot-heatmap-3.png" />
+<a class="reference internal image-reference" href="../_images/plot-heatmap-3.png"><img alt="heatmap0" class="align-center" src="../_images/plot-heatmap-3.png" style="width: 400px; height: 500px;" /></a>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ python bt2heatmap.py -m H3K4me3.bdgene.TSS.cg.txt H3K4me3.bdgene.TTS.cg.txt <span class="se">\</span>
     H3K4me3.bdgene.TSS.chg.txt H3K4me3.bdgene.TTS.chg.txt <span class="se">\</span>
     H3K4me3.bdgene.TSS.chh.txt H3K4me3.bdgene.TTS.chh.txt <span class="se">\</span>
@@ -255,7 +255,7 @@ $ bt2profile.py -f active.centerprofile.txt <span class="se">\</span>
     --centerlabel center -z cg chg chh --zMax <span class="m">0</span>.3 <span class="m">1</span> <span class="m">0</span>.01
 </pre></div>
 </div>
-<img alt="../_images/plot-heatmap-4.png" src="../_images/plot-heatmap-4.png" />
+<a class="reference internal image-reference" href="../_images/plot-heatmap-4.png"><img alt="heatmap0" class="align-center" src="../_images/plot-heatmap-4.png" style="width: 400px; height: 500px;" /></a>
 </div>
 <div class="section" id="bt2chrprofile">
 <h2><a class="toc-backref" href="#id9">bt2chrprofile</a><a class="headerlink" href="#bt2chrprofile" title="Permalink to this headline">¶</a></h2>
