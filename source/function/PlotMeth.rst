@@ -136,6 +136,6 @@ bt2basicplot
 
 .. tip:: DNA methylation level distribution on chromosome (bt2chrplot) and DNA methylation level distribution (bt2visul) are currently being tested, and we will update them as soon as possible.
          
-        Note: chrplot script is completed by Zhixian Zhu @HZAU.
+        Note: @HZAU.
 
 .. tip:: For feature requests or bug reports please open an issue `on github <http://github.com/ZhouQiangwei/BatMeth2>`__.
