@@ -27,8 +27,8 @@ The functions you can use BatMeth2 to do:
 * :doc:`function/PlotMeth`: Plot DNA ML profile, heatmap or boxplot across genes/TEs/etc. 
 
 
-Contents:
----------
+Contents
+--------
 .. toctree::
    :maxdepth: 1
 
