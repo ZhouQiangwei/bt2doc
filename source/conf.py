@@ -48,8 +48,8 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-#html_theme = 'sphinx_rtd_theme'
-html_theme = 'sphinx_book_theme'
+html_theme = 'sphinx_rtd_theme'
+#html_theme = 'sphinx_book_theme'
 #from better import better_theme_path
 #html_theme = 'better'
 #html_theme_path = [better_theme_path]

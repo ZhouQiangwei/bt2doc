@@ -75,6 +75,51 @@ The *.TSSprofile.txt *.centerprofile.txt and *.AverMethylevel.txt are calulated 
    :align: center
 
 
+bt2basicplot
+------------
+
+.. code:: bash
+
+    $ python3 bt2basicplot.py -c coverfile.txt coverfile2.txt -o tt.pdf
+
+.. image:: ../media/plot-basic-coverage.png
+   :height: 300 px
+   :width: 560 px
+   :alt: coverage
+   :align: center
+
+.. code:: bash
+
+    $ python3 bt2basicplot.py -f prefix1.gene.cg.txt prefix2.gene.cg.txt \
+        -c coverfile.txt coverfile2.txt -o tt.pdf
+
+.. image:: ../media/plot-basic-boxplot.png
+   :height: 300 px
+   :width: 600 px
+   :alt: boxplot
+   :align: center
+
+.. image:: ../media/plot-basic-corplot1.png
+   :height: 300 px
+   :width: 600 px
+   :alt: corplot1
+   :align: center
+
+.. image:: ../media/plot-basic-corplot2.png
+   :height: 300 px
+   :width: 360 px
+   :alt: corplot2
+   :align: center
+
+.. image:: ../media/plot-basic-coverage.png
+   :height: 300 px
+   :width: 600 px
+   :alt: coverage
+   :align: center
+
+bt2chrprofile
+-------------
+
 bt2heatmap
 ----------
 
@@ -141,50 +186,6 @@ bt2heatmap
    :alt: heatmap0
    :align: center
 
-bt2chrprofile
--------------
-
-bt2basicplot
-------------
-
-.. code:: bash
-
-    $ python3 bt2basicplot.py -c coverfile.txt coverfile2.txt -o tt.pdf
-
-.. image:: ../media/plot-basic-coverage.png
-   :height: 300 px
-   :width: 560 px
-   :alt: coverage
-   :align: center
-
-.. code:: bash
-
-    $ python3 bt2basicplot.py -f prefix1.gene.cg.txt prefix2.gene.cg.txt \
-        -c coverfile.txt coverfile2.txt -o tt.pdf
-
-.. image:: ../media/plot-basic-boxplot.png
-   :height: 300 px
-   :width: 600 px
-   :alt: boxplot
-   :align: center
-
-.. image:: ../media/plot-basic-corplot1.png
-   :height: 300 px
-   :width: 600 px
-   :alt: corplot1
-   :align: center
-
-.. image:: ../media/plot-basic-corplot2.png
-   :height: 300 px
-   :width: 360 px
-   :alt: corplot2
-   :align: center
-
-.. image:: ../media/plot-basic-coverage.png
-   :height: 300 px
-   :width: 600 px
-   :alt: coverage
-   :align: center
 
 .. tip:: DNA methylation level distribution on chromosome (bt2chrplot) and DNA methylation level distribution (bt2visul) are currently being tested, and we will update them as soon as possible.
          
