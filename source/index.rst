@@ -44,20 +44,18 @@ Contents
    function/DiffMeth
    function/Requirements
    
-While developing deepTools, we continuously strive to create software
+While developing BatMeth2, we continuously strive to create software
 that fulfills the following criteria:
 
--  **efficiently extract reads from BAM files** and perform various
-   computations on them
--  **turn BAM files of aligned reads into bigWig files** using different
-   normalization strategies
--  make use of **multiple processors** (speed!)
+-  raw fastq reads quality control and **efficiently align bisulfite
+   sequencing data**
+-  **calculate DNA methylation level based on sorted BAM file** for single
+   base or chromosome region and genes.
+-  **new methlation mbw format with index** can calculate DNA methylation level
+   quickly.
+-  enable **customized down-stream analyses**, espacially with visulization
 -  generation of **highly customizable images** (change colours, size,
    labels, file format, etc.)
--  enable **customized down-stream analyses**, meaning that every
-   data set created can be stored by the user
--  **modular approach** - compatibility, flexibility, scalability (i.e.
-   we can add more and more modules and make use of established methods)
 
 
 Citation
